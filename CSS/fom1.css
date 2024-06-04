@@ -1,0 +1,178 @@
+/*for global body background*/
+.globalbg{
+  background-color: rgb(194, 192, 192);
+}
+
+/*for navigation bar: */
+body{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* 
+.vertical {
+  background-color:rgb(121, 120, 120);
+  width: 150px;
+  height: 100vh;
+  position: fixed;
+  margin-top: 46px;
+  
+}
+
+.vertical a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.vertical a:hover {
+  background-color: rgb(16, 20, 233);
+}
+
+.vertical ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+} */
+
+/* for horizontal*/
+.horizontal {
+  list-style: none;
+  background-color: #333;
+  position: relative;
+  width: 100%;
+
+}
+
+.horizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.horizontal li {
+  float: left;
+  
+}
+
+.horizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.horizontal li a:hover {
+  background-color: #2714d6;
+  
+}
+
+.bar-right {
+  float: right;
+
+} 
+
+
+
+.column1 {
+ float: left;
+  width: 500px;
+  background-color: #877ed3;
+  height: 270px;
+  position: relative;
+
+  left: 300px;
+  top: 150px;
+  box-shadow: 20px 20px 20px 20px;
+  
+}
+
+.column2 {
+  float: left;
+  width:500px;
+  height: 570px;
+  position: relative;
+  left: 400px;
+  background-color:aliceblue;
+ 
+}
+
+
+/* for wole container design*/
+.wholecontainer {
+    margin: auto;
+    width: 50%;
+}
+h2 {
+  text-align: center;
+}
+/* Bordered form */
+form {
+    border: 3px solid whitesmoke;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.buttonlogin {
+    background-color: #04AA6D;
+    color:whitesmoke;
+    padding: 14px 20px; 
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+    text-decoration: none;
+}
+
+.create {
+    color:whitesmoke;
+    padding: 10px 10px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 10;
+    background-color: rgb(76, 40, 209);
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

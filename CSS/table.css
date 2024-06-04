@@ -1,0 +1,70 @@
+/*for global body background*/
+.globalbg{
+    background-color: rgb(194, 192, 192);
+  }
+  
+  
+/* for navbar*/
+.horizontal {
+    list-style: none;
+    background-color: #333;
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  .horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #312f2f;
+  }
+  
+  .horizontal li {
+    float: left;
+    
+  }
+  
+  .horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  .horizontal li a:hover {
+    background-color: #2714d6;
+    
+  }
+  
+  .bar-right {
+    float: right;
+  
+  } 
+  
+  
+  
+  .column1 {
+   float: left;
+    width: 500px;
+    background-color: #877ed3;
+    height: 270px;
+    position: relative;
+  
+    left: 300px;
+    top: 150px;
+    box-shadow: 20px 20px 20px 20px;
+    
+  }
+  
+  .column2 {
+    float: left;
+    width:500px;
+    height: 570px;
+    position: relative;
+    left: 400px;
+    background-color:aliceblue;
+   
+  }

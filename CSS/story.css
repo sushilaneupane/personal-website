@@ -1,0 +1,110 @@
+/*for global body background*/
+.globalbg{
+  background-color: whitesmoke;
+}
+/*for navigation bar: */
+body{
+  margin: 0;
+  padding: 0;
+ 
+}
+/* for horizontal*/
+.horizontal {
+  list-style: none;
+  background-color: #333;
+  position: relative;
+  width: 100%;
+}
+.horizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.horizontal li {
+  float: left;
+}
+.horizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.horizontal li a:hover {
+  background-color: #2714d6;
+}
+.bar-right {
+  float: right;
+} 
+.column1 {
+ float: left;
+  width: 500px;
+  background-color: #877ed3;
+  height: 270px;
+  position: relative;
+  left: 300px;
+  top: 150px;
+  box-shadow: 20px 20px 20px 20px;
+}
+.column2 {
+  float: left;
+  width:500px;
+  height: 570px;
+  position: relative;
+  left: 400px;
+  background-color:aliceblue;
+}
+ /* for story*/
+ .storycontainer{
+   background-color:whitesmoke;
+   margin-left: 200px;
+   height: 1200px;
+  width: 80%;
+  /* box-shadow: 10px 5px 10px 5px gainsboro; */
+ }
+.text {
+    text-align: justify;
+    margin: 10px;
+    padding: 3px;
+    margin-top: 5px;
+}
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+/* #title1{
+   text-align: center; 
+} */
+
+/* body{
+    font-family: Arial;
+} */
+
+.des{
+    text-align:center ;
+    font-size: medium;
+}
+
+/* for card */
+
+#title1{
+  padding-top:0px;
+  color: #2714d6;
+
+}
+
+ .storycardcolumn1{
+  width: 85%;
+  height: 110px;
+  padding: 10px;
+  margin-left: 10px;
+   background-color: whitesmoke; 
+   box-sizing: content-box;
+   box-decoration-break: inherit;
+   /* box-shadow: 5px 10px 5px 10px gray; */
+
+}
