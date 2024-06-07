@@ -176,3 +176,52 @@ span.psw {
     float: right;
     padding-top: 16px;
 }
+
+
+
+/* for fotter */
+ .grid-fottercontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 10px;
+  height: 340px;
+  /* background-color:black; */
+}
+
+.gridiconforfotter i {
+  font-size: 30px;
+  gap: 5px;
+  vertical-align: -o.125em;
+ position: relative;
+ left: 5px;
+}
+
+
+.fottercolumn1 {
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  background-color: rgba(0, 0, 0, 0.185);
+  text-align: center;
+  font-size: 15px;
+  height: 250px;
+  border: 5px wheat;
+  margin-top: 20px;
+}
+
+/* .fottergmail1 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.185);
+  position: relative;
+   left: 500px; 
+  font-size: 20px;
+} */
+
+.grid-fottercontainer h6 {
+  text-align: center;
+  color: black;
+  position: relative;
+  left: 450px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
